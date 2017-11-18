@@ -1,0 +1,104 @@
+/* POST */
+
+.main {
+    margin: 20px 0px;
+}
+
+.post {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+#cuerpo {
+    background: #000000;
+    color: #FFFFFF;
+    font-family: Tahoma;
+}
+
+#menu {
+    background: url(https://cdn.shutterstock.com/shutterstock/videos/11237060/thumb/1.jpg);
+}
+
+#title {
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: tahoma;
+}
+
+#btnlogin {
+    font-family: tahoma;
+    left: 58%;
+    font-weight: bold;
+}
+
+#menu2 li > a {
+    color: #FFFFFF;
+}
+
+#ventanalogin {
+    background: #000000;
+    color: #000;
+}
+
+.modal-content {
+    font-family: Tahoma;
+}
+
+.form, .color-form {
+    font-family: Tahoma;
+    color: #FFFFFF;
+}
+
+.carousel-inner {
+    width: 150%;
+}
+
+#body{
+    background: black;
+}
+.footer{
+    background: black;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Monotype Corsiva";
+    font-size: 20px;
+    margin-top: -10px;
+    z-index: 1000 !important;
+}
+#footericons {
+    text-align:center;
+    margin: auto auto;
+    padding-top: 1px;
+}
+#footericons ul li {
+    list-style-type: none;
+    text-align:center;
+    margin-left:5px;
+}
+#footericons ul li:hover{
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    text-shadow: 10px 5px 5px #000;
+}
+.content-form{
+    margin-top: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+label, #label{
+    font-family: Georgia;
+    font-size: 18px;
+    font-weight: bold;:
+}
+.message{
+    text-align: center;
+}
+.alertaVisible{
+    display: none;
+}
