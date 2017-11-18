@@ -1,6 +1,6 @@
 <?php
-include "../menu.php";
-include "../conect.php";
+include "../template/menu.php";
+include "../template/conect.php";
 ?>
 <div>
     <div class="container " >

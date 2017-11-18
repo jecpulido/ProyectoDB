@@ -55,7 +55,9 @@ if (!isset($_SESSION)){
           </a>
         </li>
       </ul>
-     
+      <div>
+        <a href="" class="btn btn-secondary">Admin <i class="fa fa-user-secret" aria-hidden="true"></i></a>
+      </div>
       <!--<button class="btn btn-primary" style="font-family: Verdana; font-weight: bold;">Administrar</button>-->
     </div>
   </nav>
