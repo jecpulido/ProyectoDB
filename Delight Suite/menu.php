@@ -54,6 +54,16 @@ if (!isset($_SESSION)){
           <a class="nav-link" href="#">Contacto <i class="fa fa-paper-plane" aria-hidden="true"></i>
           </a>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Administración
+          </a>
+          <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink" style="background-color: black;">
+            <a class="dropdown-item" href="<?php echo $_SESSION["URL"];?>Productos/agregarProducto.php" style="color: gray">Producto</a>
+            <a class="dropdown-item" href="<?php echo $_SESSION["URL"];?>Personal/agregarPersonal.php" style="color: gray">Personal</a>
+            
+          </div>
+        </li>
       </ul>
      
       <!--<button class="btn btn-primary" style="font-family: Verdana; font-weight: bold;">Administrar</button>-->
